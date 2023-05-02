@@ -61,13 +61,13 @@ Other usage ideas: Find argumentation gaps in this note, Continue with this note
 
 ## Instalation
 - Install plugin from github
-- Create your own OpenAI account and API key
-- Go to Options in Joplin 
+- Create your own OpenAI account at [openai.com](https://platform.openai.com/signup) and [API key](https://platform.openai.com/account/api-keys)
+- Go to Options > GPT in Joplin 
     - set your OpenAI API Key
     - you can leave the models settings as they are
     - set maximum tokens (recommanded value is 1000)
     - set query which will select notes to index (eg. tag:gpt-include)
-- Go to Tools > GPT > GPT Update Embeddings (this will call the OpenAI API and you may be charged for using it)
+- Go to Tools > GPT > GPT Update Embeddings (this will call the OpenAI API and you may be charged for using it, also this will take quite a bit of time)
 
 ## Usage
 - open GPT panel from menu of by pressing Ctrl+G
