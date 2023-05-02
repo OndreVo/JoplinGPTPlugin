@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--joplin-font-family);
+    font-size: var(--joplin-font-size);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section.heading {
+    height: 30px;
+    padding: 10px;
+}
+
+section.content {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+section.prompt {
+    padding: 10px;
+    height: 100px;
+    background-color: var(--joplin-odd-background-color);    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+section.prompt .query {
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+#query-options {    
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    overflow-x: auto;
+}
+
+#query-options label {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+section.prompt textarea {
+    height: 100%;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+section.prompt .buttons {
+    width: 100px;
+    padding-left: 5px;
+}
+
+section.prompt button {
+    width: 100%;        
+    font-size: 120%;    
+    padding: 5px;
+}
+
+section.prompt button.primary {
+    background-color: var(--joplin-color4);
+    color: white;
+    border: solid 1px #DDD;
+    border-radius: 3px;
+}
+
+section.prompt button.secondary {
+    background-color: transparent;
+    color: var(--joplin-color4);
+    border: none;
+}
+
+.gpt-query-prompt {
+    margin-top: 10px;
+    padding: 10px;    
+    background-color: #E0F0FF;
+    border-radius: 3px;
+}
+
+.gpt-query-result {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt-query-result p {
+    flex-grow: 1;
+}
+
+.gpt-query-result div {
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gpt-query-result div span {
+    color: var(--joplin-url-color);
+    border: solid 1px #DDD;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    width: 50px;
+}
+
+.type-error {
+    color: #880000;
+}
+
+#gpt-query-wip {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}

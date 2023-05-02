@@ -1,0 +1,13 @@
+{
+	"manifest_version": 1,
+	"id": "net.vosta.JoplinGPTPlugin",
+	"app_min_version": "2.8",
+	"version": "0.2.0",
+	"name": "GPT Plugin",
+	"description": "Plugin to access Chat GPT and GPT-4 funcionality in Joplin.",
+	"author": "Ondrej Vosta",
+	"homepage_url": "https://github.com/OndreVo/JoplinGPTPlugin",
+	"repository_url": "https://github.com/OndreVo/JoplinGPTPlugin",
+	"keywords": [],
+	"categories": []
+}
