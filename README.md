@@ -1,6 +1,6 @@
 # GPT
 
-This plugin allows users to more easily capture and search their notes, making them more useful. It usees power of Large Language Models (like Chat GPT) to help with writing, searching, summarizing etc. 
+This plugin allows users to more easily create and search their notes, making them more useful. It uses power of Large Language Models (like Chat GPT) to help with writing, searching, summarizing etc. 
 
 ## Use Cases
 
